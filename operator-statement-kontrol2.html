@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title> Operator dan Statement Control</title>
+    </head>
+    <body>
+        <script languange = "JavaScript">
+        function tanya(){
+            var jawab = " "
+            var jawab = prompt ("Anda senang bikin homepage?")
+            var JAWAB = jawab.toUpperCase()
+            var tampil = "Jawab dong, ya/yup atau tidak/nggak"
+
+            if(JAWAB=="YA"||JAWAB=="YUP"){
+                var tampil="Sama dong, saya juga :D"
+            }
+            if(JAWAB=="TIDAK" || JAWAB =="NGGAK"){
+                var tampil = "Iya euy, bikin suntuk-_-"
+            }
+            alert(tampil)
+        }
+        </script>
+        <body>
+            <b> Hobi</b>
+            <form> <input type="button" value="polling" onclick="tanya()"></form>
+        </body>
+    </body>
+</html>
